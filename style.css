@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 15px;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.navbar img {
+  padding-bottom: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.navbar ul li:hover {
+  color: #2499ed;
+}
+.intro {
+  background-image: url("lucas-calloch-P-yzuyWFEIk-unsplash\ \(1\).jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.61);
+}
+
+.about {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.about h1 {
+  margin-bottom: 20px;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.219);
+}
+
+.about p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+}
+hr {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.animation {
+  margin-bottom: 20px;
+}
+.animation h1 {
+  text-align: center;
+}
+
+.prog-container {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #4b52db;
+  padding: 20px;
+}
+
+.anim {
+  width: 60%;
+  height: 40px;
+  border: 3px solid white;
+  margin: 10px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.html-ani {
+  background-color: #2499ed;
+  width: 0%;
+  border-radius: 20px;
+  position: absolute;
+  height: 100%;
+  animation: anime1 5s forwards;
+}
+
+@keyframes anime1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.css-ani {
+  background-color: #2499ed;
+  width: 0%;
+  border-radius: 20px;
+  position: absolute;
+  height: 100%;
+  animation: anime2 5s forwards;
+}
+
+@keyframes anime2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.js-ani {
+  background-color: #2499ed;
+  width: 0%;
+  border-radius: 20px;
+  position: absolute;
+  height: 100%;
+  animation: anime3 5s forwards;
+}
+
+@keyframes anime3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.footer {
+  width: 90%;
+  background-color: #2499ed;
+  margin: 0 auto 30px;
+  border-radius: 10px;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.footer p a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.541);
+}
+.social {
+  margin-top: 10px;
+}
+
+.footer .social a {
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+  color: aliceblue;
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.541);
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
